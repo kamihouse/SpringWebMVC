@@ -19,5 +19,14 @@ WorkflowEngine
 | Business Process Modeling     | BPMN 2.0      |
 | Business Process Management   | BPM CBOK V3.0 |
 
-### Screenshot
-![alt tag](https://raw.githubusercontent.com/kamihouse/SpringWebMVC/master/src/main/webapp/assets/image/screenshot.png)
+### Instruções de Instalação
+
+#### Configurando DB
+- Alterar /src/main/resources/META-INF/jdbc.properties
+
+#### Mensagens de Validação
+- Alterar /src/main/resources/META-INF/messages_pt_BR.properties
+
+### Screenshots
+![alt tag](https://raw.githubusercontent.com/kamihouse/SpringWebMVC/master/src/main/webapp/assets/image/screenshot1.png)
+![alt tag](https://raw.githubusercontent.com/kamihouse/SpringWebMVC/master/src/main/webapp/assets/image/screenshot2.png)
