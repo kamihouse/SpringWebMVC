@@ -23,7 +23,7 @@
 					<b>Erro interno de servidor.</b>
 					<br> O erro 500 indica um
 					erro do servidor ao processar a solicitação. Normalmente 
-					está relacionado à permissões dos arquivos ou diretórios do
+					pode estar relacionado à permissões dos arquivos ou diretórios do
 					software ou script que o usuário tenta acessar e não foram
 					configuradas no momento da programação/construção da
 					aplicação.

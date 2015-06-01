@@ -22,10 +22,10 @@
 				<p>
 					<b>Arquivo ou diretório não encontrado.</b>
 					<br> O erro 404 é
-					um código de resposta HTTP que indica que o cliente pôde comunicar
-					com o servidor, mas ou o servidor não pôde encontrar o que foi
+					um código de resposta HTTP que indica que o cliente pôde se comunicar
+					com o servidor, ou o servidor não pôde encontrar o que foi
 					pedido, ou foi configurado para não cumprir o pedido e não revelar
-					a razão ou a página não existe mais.
+					a razão, ou a página não existe mais.
 				</p>
 			</div>
 		</div>

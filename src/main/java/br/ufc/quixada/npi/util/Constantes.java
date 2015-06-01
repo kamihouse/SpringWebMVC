@@ -9,7 +9,7 @@ public class Constantes {
 		{
 			put("TITULO", "Workflow Engine & BPM");
 			put("DESCRICAO", "Estudo de Workflow Engine & BPM");
-			put("AUTOR", "Thiago Pereira");
+			put("AUTOR", "Thiago Pereira - @kamihouse");
 		}
 	};
 }

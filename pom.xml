@@ -2,10 +2,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>br.ufc.quixada.npi</groupId>
-	<artifactId>WorkflowEngine</artifactId>
+	<artifactId>SpringWebMVC</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>WorkflowEngine Maven Webapp</name>
+	<name>SpringWebMVC Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
@@ -30,6 +30,9 @@
 		<!-- PostgreSQL -->
 		<postgresql.version>9.4-1201-jdbc41</postgresql.version>
 		<dbcp.version>2.1</dbcp.version>
+
+		<!-- Log4J -->
+		<log4j.version>2.3</log4j.version>
 	</properties>
 
 	<dependencies>
@@ -114,8 +117,25 @@
 			<artifactId>jstl</artifactId>
 			<version>${jstl.version}</version>
 		</dependency>
+
+		<!-- Log4J -->
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-core</artifactId>
+			<version>${log4j.version}</version>
+		</dependency>
 	</dependencies>
 	<build>
-		<finalName>WorkflowEngine</finalName>
+		<finalName>SpringWebMVC</finalName>
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.0</version>
+				<configuration>
+					<source>1.7</source>
+					<target>1.7</target>
+				</configuration>
+			</plugin>
+		</plugins>
 	</build>
 </project>
