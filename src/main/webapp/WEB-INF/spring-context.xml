@@ -24,7 +24,7 @@
 	<context:property-placeholder location="classpath:META-INF/jdbc.properties" />
 	<context:component-scan base-package="br.ufc.quixada.npi"></context:component-scan>
 
-	<tx:annotation-driven transaction-manager="transactionManager" />
+	<tx:annotation-driven/>
 
 	<!-- Internal Resource Viewer -->
 	<bean

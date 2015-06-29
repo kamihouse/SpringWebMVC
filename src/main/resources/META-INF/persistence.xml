@@ -5,13 +5,16 @@
 	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd"
 	version="2.1">
 	
-	<persistence-unit name="devPersistenceThiago" transaction-type="RESOURCE_LOCAL">
+	<persistence-unit name="devPersistenceThiago" transaction-type="JTA">
+		<!-- provedor/implementacao do JPA -->
 		<provider>org.hibernate.ejb.HibernatePersistence</provider>
 
 		<properties>
 			<!-- Essa propriedade não deve ser utilizada em produção (valores: updata/create) -->
+			<!--  atualiza o banco, gera as tabelas se for preciso -->
 			<property name="hibernate.hbm2ddl.auto" value="update" />
 
+			<property name="hibernate.show_sql" value="true" />
 			<property name="hibernate.format_sql" value="true" />
 			<property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQLDialect" />
 
